@@ -17,5 +17,7 @@ ARCamera只负责捕捉图像，不参与数据的处理<br>
         下周目标：了解Ar-kit自定义实现，进一步思考如何将框架合适的应用到项目当中。
 
 ## 第二周进展：
-1.
+1.大致看了一遍 Fall2017 wwdc大会上的两个视频：Face Tracking with ARkit 以及 Introducing ARKit:<br>
+对于Face Tracking，它仅在带有深度前置前置摄像头的iphone x上才有，当运行面部追踪会话时(参阅ARFaceTrackingConfiguration)，会话使用前置摄像头检测到用户脸部时会自动将面部添加到ARFaceAnchor对象的锚点列表中。追踪脸部在世界坐标系中的位置和方向，继承而来的transform属性描述了人脸在世界坐标中的当前位置和方向；也就是说，在相对于会话配置的worldAlignment属性指定的坐标空间中。使用此变换矩阵将虚拟内容放置到AR场景的脸部。网上查找的一个利用此项技术主要是实现人脸京剧变脸且目前仅支持单人，目前看来在项目中的可用性不是很高。
+
 
