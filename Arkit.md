@@ -16,3 +16,6 @@ ARCamera只负责捕捉图像，不参与数据的处理<br>
               ![](https://upload-images.jianshu.io/upload_images/6271687-5b2cea6f7131d32e.png?imageMogr2/auto-orient/) 
         下周目标：了解Ar-kit自定义实现，进一步思考如何将框架合适的应用到项目当中。
 
+##第二周进展：
+1.
+
